@@ -1,0 +1,10 @@
+{"contact": {"result":[
+  {"Name":"Test-Contact-1","Email":"test-email-1@gmail.com","Location":"Test Location","Username":"test-contact-1"},
+  {"Name":"Test-Contact-2","Email":"test-email-2@gmail.com","Location":"Test Location/Second","Username":"test-contact-2"},
+  {"Name":"Test-Contact-3","Email":"test-email-3@gmail.com","Location":"Test Location/Third","Username":"test-contact-3"}]},
+  "parcel": {"result": [
+    {"TrackingNumber":"14341434323","Recipient":"test-contact-1", "Sender":"Test-Contact-2","ParcelType":"Letter","Carrier":"DHL"},
+    {"TrackingNumber":"14341434325","Recipient":"test-contact-2", "Sender":"Test-Contact-1","ParcelType":"Parcel","Carrier":"DHL"},
+    {"TrackingNumber":"14341434363","Recipient":"Test-Contact-2", "Sender":"Test-Contact-2","ParcelType":"Parcel","Carrier":"DHL"}
+  ]}
+}
